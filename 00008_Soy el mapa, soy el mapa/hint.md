@@ -1,1 +1,1 @@
-¿Quizá necesites _agregar_ ganancias a una lista? ¿Te acordas de la función `agregar`? :thought_balloon:
+¿Quizá necesites _agregar_ ganancias a una lista? ¿Te acordas de `agregar`? :thought_balloon:
