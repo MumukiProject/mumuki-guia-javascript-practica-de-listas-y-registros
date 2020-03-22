@@ -1,8 +1,0 @@
----
-rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-    these_tests_failed:
-    - balancesPositivos debe devolver una lista de balances, no de números
-  then: El problema está en que tienen que devolver una lista de balances (es decir,
-    de registros), pero están devolviendo una lista de números.
