@@ -1,6 +1,6 @@
-function safeCall(f, ...args) {
+function safeCall(f) {
   try { 
-    return f.call(null, ...args);
+    return f();
   } catch(e) { 
     return null;
   }
