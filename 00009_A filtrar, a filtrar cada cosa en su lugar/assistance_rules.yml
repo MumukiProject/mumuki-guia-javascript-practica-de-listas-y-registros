@@ -4,5 +4,6 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_tests_failed:
     - balancesPositivos no debe devolver una lista de numeros
-  then: ":warning: ¡Cuidado! `balancesPositivos` tiene que devolver una lista de registros,
-    no de números"
+  then: ":warning: ¡Cuidado! `balancesPositivos` tiene que devolver los _balances_,
+    no las _ganancias_. En otras palabras, tenés que retornar una lista de registros,
+    pero estás devolviendo una lista de números"
