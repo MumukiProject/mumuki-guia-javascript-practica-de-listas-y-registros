@@ -1,8 +1,17 @@
-describe("balancesPositivos", function(){
-  it("no debe devolver una lista de numeros", function() { 
-   assert(typeof(balancesPositivos([
-      { "mes": "marzo", "ganancia": 10 } 
-    ])[0]) !== "number"); 
+function safeCall(f, ...args) {
+  try { 
+    return f.call(null, ...args);
+  } catch(e) { 
+    return null;
+  }
+}
+
+
+describe("balancesPositivos", function() {
+  it("no debe devolver una lista de numeros", function() { let returnType = safeCall(() => 
+      typeof(balancesPositivos([{ "mes": "marzo", "ganancia": 10 }])[0]))
+  
+    assert(returnType !== "number"); 
   })
   
 	it("devuelve todos los balances si todos tienen ganancia mayor a cero", function() {
