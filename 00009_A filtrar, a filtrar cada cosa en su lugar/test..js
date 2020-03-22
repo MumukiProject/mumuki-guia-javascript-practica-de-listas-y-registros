@@ -2,7 +2,7 @@ describe("", function(){
   it("balancesPositivos no debe devolver una lista de numeros", function() { 
    assert(typeof(balancesPositivos([
       { "mes": "marzo", "ganancia": 10 } 
-    ])) !== "number"); 
+    ])[0]) !== "number"); 
   })
   
 	it("balancesPositivos devuelve todos los balances si todos tienen ganancia mayor a cero", function() {
