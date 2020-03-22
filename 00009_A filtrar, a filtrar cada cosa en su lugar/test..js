@@ -1,13 +1,12 @@
-function safeCall(f) {
-  try { 
-    return f();
-  } catch(e) { 
-    return null;
-  }
-}
-
-
 describe("balancesPositivos", function() {
+  function safeCall(f) {
+    try { 
+      return f();
+    } catch(e) { 
+      return null;
+    }
+  }
+
   it("no debe devolver una lista de numeros", function() { let returnType = safeCall(() => 
       typeof(balancesPositivos([{ "mes": "marzo", "ganancia": 10 }])[0]))
   
