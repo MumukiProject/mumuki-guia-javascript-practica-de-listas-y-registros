@@ -1,4 +1,10 @@
 describe("", function(){
+  it("balancesPositivos no debe devolver una lista de numeros", function() { 
+   assert(typeof(balancesPositivos([
+      { "mes": "marzo", "ganancia": 10 } 
+    ])) !== "number"); 
+  })
+  
 	it("balancesPositivos devuelve todos los balances si todos tienen ganancia mayor a cero", function() {
 		assert.deepEqual(balancesPositivos([{ "mes": "marzo", "ganancia": 10 }, { "mes": "agosto", "ganancia": 2 }, { "mes": "septiembre", "ganancia": 8 }]), [{ "mes": "marzo", "ganancia": 10 }, { "mes": "agosto", "ganancia": 2 }, { "mes": "septiembre", "ganancia": 8 }])
 	})
