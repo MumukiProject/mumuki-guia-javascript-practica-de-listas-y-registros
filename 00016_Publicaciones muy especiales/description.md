@@ -14,7 +14,7 @@ let hiloDeEjemplo = [
 ]
 ```
 
-¿Y qué tienen de especiales estas publicaciones? :thinking: Aunque como siempre podés enviar tu solución las veces que quieras, **no la vamos a evaluar automáticamente**. :open_mouth:
+¿Y qué tienen de especiales estas publicaciones? :thinking: Aunque como siempre podés enviar tu solución las veces que quieras, **no la vamos a evaluar automáticamente**. :open_mouth: Si querés verla en funcionamiento, ¡te invitamos a que la pruebes en la consola!
 
 > Como último desafío, definí una función `publicacionesCortasDelHilo` que tome un apodo por parámetro y un hilo, y retorne las publicaciones de esa persona que tengan menos de 20 caracteres. Por ejemplo:
 >
