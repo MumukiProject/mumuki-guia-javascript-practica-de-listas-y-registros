@@ -1,11 +1,11 @@
 ---
 locale: es
 tags: []
-layout: input_bottom
+layout: input_right
 editor: code
 type: problem
 extra_visible: false
 teacher_info: ''
-manual_evaluation: false
+manual_evaluation: true
 choices: []
-name: Los mejores meses del año
+name: Publicaciones muy especiales
