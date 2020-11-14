@@ -20,7 +20,7 @@ let hiloDeEjemplo = [
 >
 ```javascript
 ム publicacionesCortasDelHilo("jor", hiloDeEjemplo)
-=> { apodo: "jor", mensaje: "¡Lee fundación!" }
+=> [{ apodo: "jor", mensaje: "¡Lee fundación!" }]
 ```
 
 
