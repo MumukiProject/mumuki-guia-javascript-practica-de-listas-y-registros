@@ -1,2 +1,2 @@
-Ya casi terminamos este recorrido :raised_hands:. Si bien ya trabajamos con listas y registros ¡ahora vamos a trabajar con ambas cosas juntas! :muscle:
+En lecciones anteriores definimos funciones, usamos registros y listas. Ahora que tenemos todas esas herramientas, llega el momento de combinarlas y aprender a correr las listas y hacer cosas más complejas. ¡Acompañanos!
 
