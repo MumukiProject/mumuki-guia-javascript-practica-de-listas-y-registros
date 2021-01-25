@@ -5,4 +5,4 @@ rules:
     these_expectations_failed:
     - "* Not:Declares:cantidadDeBalancesPositivos"
   then: "`cantidadDeBalancesPositivos` lo definiste en ejercicios anteriores. En este
-    ejercicio solo tenés que invocarlo, no definirlo"
+    ejercicio solo tenés que invocarlo, no definirlo nuevamente"
