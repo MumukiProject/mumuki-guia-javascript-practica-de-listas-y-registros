@@ -3,4 +3,4 @@ Viendo que podemos hacer todo lo que nos pide, Ana quiere saber la ganancia prom
 > Definí las funciones:
 >
 > * `gananciaPositiva`, que es la suma de las ganancias de los balances positivos
-* `promedioGananciasPositivas` utilizando `gananciaPositiva` y `cantidadDeBalancesPositivos`.
+* `promedioGananciasPositivas` invocando `gananciaPositiva` y `cantidadDeBalancesPositivos`.
