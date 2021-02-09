@@ -11,7 +11,7 @@ expectation "para decidir si agregar la publicación a la lista resultante o no,
   somewhere (uses `map` || uses `filter` || uses if);
 
 expectation "vas a tener que obtener solamente las publicaciones que sean cortas, es decir, aquellas que tengan una longitud menor a 20 letras. Te conviene usar la función `longitud`": 
-  somewhere (uses like `length` || uses like `longitud`);
+  somewhere (uses size || uses like `longitud`);
 
 expectation "no es necesario usar tantos `for`. Fijate si podés resolverlo con sólo uno": 
   count(uses for) <= 1;
