@@ -1,6 +1,12 @@
-function longitud(lista) {
-  return lista.length
-}
+function longitud(unString) /*<elipsis-for-student@*/ {
+  return unString.length;
+} /*@elipsis-for-student>*/
+// Retorna cuan largo es un string
+//
+// Por ejemplo:
+//
+//  ム longitud("hola")
+//  4
 
 function gananciaTotal(balancesDeUnPeriodo) {
   let sumatoria = 0;
@@ -9,3 +15,4 @@ function gananciaTotal(balancesDeUnPeriodo) {
   }
   return sumatoria;
 }
+
