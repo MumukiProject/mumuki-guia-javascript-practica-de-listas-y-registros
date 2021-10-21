@@ -9,7 +9,7 @@ function maximo(numeros) /*<elipsis-for-student@*/ {
 //  87
 
 function agregar(unaLista, unElemento) /*<elipsis-for-student@*/ {
-  return unaLista.push(unElemento);
+  unaLista.push(unElemento);
 } /*@elipsis-for-student>*/
 // Inserta unElemento al final de unaLista.
 // Este es un procedimiento que no retorna nada pero modifica a unaLista:
