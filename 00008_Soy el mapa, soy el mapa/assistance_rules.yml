@@ -4,5 +4,5 @@ rules:
   when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
     these_expectations_failed:
     - ganancias Not:SourceContains:>
-  then: se deben retornar una lista con las ganancias (tanto positivas como negativas)
+  then: se debe retornar una lista con las ganancias (tanto positivas como negativas)
     de los balances
