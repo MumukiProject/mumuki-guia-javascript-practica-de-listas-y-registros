@@ -22,7 +22,7 @@ describe("balancesPositivos", function() {
 	})
 
 	it("excluye a los balances con ganancia negativa", function() {
-		assert.deepEqual(balancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: -10 }, { mes: "marzo", ganancia: 2 }, { mes: "abril", ganancia: 0 }]), [{ mes: "enero", ganancia: 10 }, { mes: "marzo", ganancia: 2 }, { mes: "abril", ganancia: 0 }])
+		assert.deepEqual(balancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: -10 }, { mes: "marzo", ganancia: 2 }]), [{ mes: "enero", ganancia: 10 }, { mes: "marzo", ganancia: 2 }])
 	})
 
 	it("devuelve la lista vacia si todos los balances tienen ganancia de cero o menos", function() {
