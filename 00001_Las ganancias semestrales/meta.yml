@@ -3,12 +3,13 @@ locale: es
 tags: []
 layout: input_bottom
 editor: 0
-type: interactive
+type: playground
 extra_visible: true
 teacher_info: ''
 manual_evaluation: false
 choices: []
-goal: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+goal: |
+  --- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   kind: last_query_equals
   value: gananciaSemestre(balancesUltimoCuatrimestre)
 name: Las ganancias semestrales
