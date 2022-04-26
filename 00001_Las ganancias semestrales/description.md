@@ -39,4 +39,9 @@ Y nos preguntó: _"¿Podría usar esta función que me dieron para calcular las 
 
 > ¿Tiene algún problema la función `gananciaSemestre` que escribimos anteriormente? ¿Funcionará con los balances trimestrales? ¿Y con los cuatrimestrales?
 >
-> ¡Probala en la consola!
+> Probala en la consola haciendo:
+``` javascript
+ム gananciaSemestre(balancesPrimerTrimestre)
+ム gananciaSemestre(balancesUltimoCuatrimestre)
+```
+
