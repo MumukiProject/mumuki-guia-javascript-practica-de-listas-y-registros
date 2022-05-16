@@ -16,18 +16,30 @@ Como ves, el `for...of` nos permite visitar y hacer algo con cada elemento de un
 >
 >``` javascript
 ム gananciaTotal([])
+```
+>
+>``` javascript
 ム gananciaTotal([
     { mes: "noviembre", ganancia: 5 }
    ])
+``` 
+>
+>``` javascript
 ム gananciaTotal([
     { mes: "marzo", ganancia: 8 }, 
     { mes: "agosto", ganancia: 10 }
    ])
+```   
+>
+>``` javascript
 ム gananciaTotal([
     { mes: "enero", ganancia: 2 }, 
     { mes: "febrero", ganancia: 10 }, 
     { mes: "marzo", ganancia: -20 }
    ])
+```
+>
+>``` javascript
 ム gananciaTotal([
     { mes: "enero", ganancia: 2 }, 
     { mes: "febrero", ganancia: 10 }, 
