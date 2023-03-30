@@ -12,7 +12,7 @@ describe("", function() {
     assert.deepEqual(cantidadDeBalancesPositivos([{ mes: "marzo", ganancia: 0 }, { mes: "agosto", ganancia: 0 }]), 0)
   })
   it("cantidadDeBalancesPositivos([{ mes: 'enero', ganancia: 10 }, { mes: 'febrero', ganancia: -14 }, { mes: 'marzo', ganancia: 2 }, { mes: 'abril', ganancia: 100 }]) es 3", function() {
-    assert.deepEqual(cantidadDeBalancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: -10 }, { mes: "marzo", ganancia: 2 }, { mes: "abril", ganancia: 100 }]), 3)
+    assert.deepEqual(cantidadDeBalancesPositivos([{ mes: "enero", ganancia: 10 }, { mes: "febrero", ganancia: -14 }, { mes: "marzo", ganancia: 2 }, { mes: "abril", ganancia: 100 }]), 3)
   })
   it("cantidadDeBalancesPositivos([{ mes: 'enero', ganancia: -1 }, { mes: 'febrero', ganancia: -2 }, { mes: 'marzo', ganancia: -3 }]) es 0", function() {
     assert.deepEqual(cantidadDeBalancesPositivos([{ mes: "enero", ganancia: -1 }, { mes: "febrero", ganancia: -2 }, { mes: "marzo", ganancia: -3 }]), 0)
