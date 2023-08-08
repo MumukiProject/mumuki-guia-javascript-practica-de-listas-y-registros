@@ -1,7 +1,6 @@
 ---
 rules:
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  when: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+- when:
     these_tests_failed:
     - balancesPositivos no debe devolver una lista de numeros
   then: "`balancesPositivos` tiene que devolver los _balances_, no las _ganancias_;
